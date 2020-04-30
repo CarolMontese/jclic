@@ -35,13 +35,14 @@
      <row>*****B****</row>
      <row>*****Ã****</row>
      <row>*****O****</row>
-     <row>**********</row>
+     <row>**ESCOLA**</row>
      <row>**********</row>
     </text>
    </textGrid>
    <clues>
     <clue id="0">CASA</clue>
     <clue id="1">SABÃO</clue>
+    <clue id="2">ESCOLA</clue>
    </clues>
   </activity>
  </activities>
