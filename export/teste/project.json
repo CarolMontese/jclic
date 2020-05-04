@@ -1,0 +1,31 @@
+{
+  "title": "teste",
+  "date": "04-05-2020",
+  "description": {
+    "pt": ""
+  },
+  "license": {
+    "pt": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt"
+  ],
+  "mainFile": "teste.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 5,
+  "totalSize": 55280,
+  "files": [
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "teste.jclic",
+    "teste.jclic.js"
+  ]
+}

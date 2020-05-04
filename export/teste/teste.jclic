@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="teste" version="0.1.3">
+ <settings>
+  <title>teste</title>
+  <revision description="created" date="5/4/20" />
+  <descriptors />
+  <meta_langs>pt</meta_langs>
+  <descriptions>
+   <description language="pt" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="teste" />
+ </sequence>
+ <activities>
+  <activity class="@panels.Explore" name="teste" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0">
+     <p>oi</p>
+    </cell>
+    <cell id="1" />
+    <cell id="2" />
+    <cell id="3" />
+    <cell id="4" />
+    <cell id="5" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>ai</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+
