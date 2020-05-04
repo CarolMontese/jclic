@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="se_as_coisas_fossem_maes" version="0.1.3">
+ <settings>
+  <title>se as coisas fossem mães</title>
+  <revision description="Atividades sobre o poema &quot;Se as coisas fossem mães&quot; da Sylvia Orthof" date="4/28/20" />
+  <author name="Caroline e Emanoelle" />
+  <language>pt</language>
+  <description>
+   <p>Atividades sobre o poema "Se as coisas fossem mães" da Sylvia Orthof</p>
+  </description>
+  <descriptors area="Linguagens" level="Alfabetização" />
+  <meta_langs>pt</meta_langs>
+  <descriptions>
+   <description language="pt">
+    <p>Atividades sobre o poema "Se as coisas fossem mães" da Sylvia Orthof</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="1" name="ASSOCIAÇÃO" />
+  <item id="2" name="CRUZADINHA" />
+  <item id="3" name="CAÇA - PALAVRAS" />
+  <item id="4" name="QUEBRA - CABEÇA" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="ASSOCIAÇÃO" code="">
+   <description>
+    <p>LIGAR CADA FIGURA AO NOME</p>
+   </description>
+   <messages>
+    <cell txtAlign="middle,top" type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+     </style>
+     <p>LIGUE CADA FIGURA AO SEU NOME</p>
+    </cell>
+    <cell txtAlign="middle,bottom" imgAlign="middle,bottom" type="final">
+     <style />
+     <p>PARABÉNS!</p>
+    </cell>
+    <cell txtAlign="middle,bottom" type="finalError">
+     <style />
+     <p>NÃO DESISTA!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="true">
+    <container bgColor="0xFFCCCC">
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xFF99CC" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="60.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <p>BRUXA</p>
+    </cell>
+    <cell>
+     <p>CASA</p>
+    </cell>
+    <cell>
+     <p>ÁGUA</p>
+    </cell>
+    <cell>
+     <p>MESA</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="60.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="bfd2491d15d96c793d4f1ced945732cb.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="casa-com-varandas-edificios-casas-1396769.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="panela-no-fogao-com-agua-e-vapor_163786-112-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="mesa-retangular-a-casa-a-sala-de-estar-1354150.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="CAÇA - PALAVRAS" code="">
+   <description>
+    <p>CAÇA - PALAVRAS</p>
+   </description>
+   <messages>
+    <cell txtAlign="middle,top" type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ENCONTRE OS NOMES DE 5 MÃES DO POEMA: FILO, GERTRUDES, MALVINA, ALICE E MARIA</p>
+    </cell>
+    <cell txtAlign="middle,bottom" type="final">
+     <style />
+     <p>PARABÉNS, VOCÊ CONSEGUIU!</p>
+    </cell>
+    <cell txtAlign="middle,bottom" imgAlign="middle,bottom" type="finalError">
+     <style />
+     <p>VOCÊ É CAPAZ! TENTE DE NOVO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="true">
+    <container bgColor="0xFFCCCC">
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xFF99CC" border="true" />
+   </settings>
+   <textGrid rows="7" columns="9" cellWidth="40.0" cellHeight="40.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*M*M**G</row>
+     <row>*A*A**E</row>
+     <row>*L*R**R</row>
+     <row>*V*I**T</row>
+     <row>*I*A**R</row>
+     <row>*N****U</row>
+     <row>*ALICED</row>
+     <row>******E</row>
+     <row>FILO**S</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">GERTRUDES</clue>
+    <clue id="1">MARIA</clue>
+    <clue id="2">FILO</clue>
+    <clue id="3">MALVINA</clue>
+    <clue id="4">ALICE</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="CRUZADINHA" code="">
+   <description>
+    <p>RESPONDER AS PERGUNTAS E COLOCAR AS RESPOSTAS NA CRUZADINHA</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+     </style>
+     <p>COLOQUE AS RESPOSTAS NA CRUZADINHA</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>VOCÊ CONSEGUIU!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>VAMOS FAZER DE NOVO?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="true">
+    <helpWindow>
+     <p>AS RESPOSTAS: MAES - LUA - MESA - TERRA - CASA</p>
+    </helpWindow>
+    <container bgColor="0xFFCCCC">
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xFF99CC" border="true" />
+   </settings>
+   <textGrid rows="6" columns="6" cellWidth="55.0" cellHeight="33.0" border="true">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" border="0xFF99CC" />
+    </style>
+    <text>
+     <row>*****M</row>
+     <row>**M**E</row>
+     <row>LUA**S</row>
+     <row>*TERRA</row>
+     <row>CASA**</row>
+     <row>******</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="66.0" border="true" id="acrossClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="2" item="2" />
+    <cell id="2" item="1" />
+    <cell id="8" item="0" />
+    <cell id="7" item="0" />
+    <cell id="6" item="0" />
+    <cell id="5" item="0" />
+    <cell id="4" item="0" txtAlign="middle,top">
+     <p>QUEM É A MÃE DAS JANELAS?</p>
+    </cell>
+    <cell id="4" item="0" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" txtAlign="middle,top">
+     <p>QUEM É A MÃE DAS SEMENTES?</p>
+    </cell>
+    <cell id="2" item="0" txtAlign="middle,top">
+     <p>QUEM É A MÃE DAS ESTRELAS?</p>
+    </cell>
+    <cell id="2" item="0" />
+    <cell id="1" item="2" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="66.0" border="true" id="downClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="5" item="0" txtAlign="middle,top">
+     <p>QUEM É A MÃE DAS CADEIRAS?</p>
+    </cell>
+    <cell id="5" item="0" />
+    <cell id="4" item="0" />
+    <cell id="4" item="0" />
+    <cell id="3" item="0" />
+    <cell id="3" item="0" />
+    <cell id="2" item="0" txtAlign="middle,top">
+     <p>NO 2° DOMINGO DE MAIO É DIA DAS...</p>
+    </cell>
+    <cell id="2" item="0" />
+    <cell id="0" item="2" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="BUA" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="QUEBRA - CABEÇA" code="">
+   <description>
+    <p>JUNTAS AS PEÇAS PARA FORMAR UMA PESSOA MUITO QUERIDA.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>EU GOSTO TANTO QUANDO A MAMÃE...</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>... ME CONSOLA! AMO VOCÊ, MAMÃE!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>NÃO DESISTA!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="true">
+    <container bgColor="0xFFCCCC">
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xFF99CC" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="70199180460b0a90fdfeae464c6cc750.png">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="casa-com-varandas-edificios-casas-1396769.jpg" file="casa-com-varandas-edificios-casas-1396769-se_as_coisas_fossem_maes.jpg" />
+  <media name="mesa-retangular-a-casa-a-sala-de-estar-1354150.jpg" file="mesa-retangular-a-casa-a-sala-de-estar-1354150-se_as_coisas_fossem_maes.jpg" />
+  <media name="panela-no-fogao-com-agua-e-vapor_163786-112-resized.jpg" file="panela-no-fogao-com-agua-e-vapor_163786-112-resized-se_as_coisas_fossem_maes.jpg" />
+  <media name="70199180460b0a90fdfeae464c6cc750.png" file="70199180460b0a90fdfeae464c6cc750-se_as_coisas_fossem_maes.png" />
+  <media name="bfd2491d15d96c793d4f1ced945732cb.png" file="bfd2491d15d96c793d4f1ced945732cb-se_as_coisas_fossem_maes.png" />
+ </mediaBag>
+</JClicProject>
+

@@ -1,0 +1,56 @@
+{
+  "title": "mae",
+  "author": "Montese (Escola Municipal Montese)",
+  "date": "28-04-2020",
+  "langCodes": [
+    "pt"
+  ],
+  "languages": {
+    "pt": "português"
+  },
+  "areas": {
+    "pt": "Linguagens"
+  },
+  "levels": {
+    "pt": "Alfabetização"
+  },
+  "description": {
+    "pt": "Atividades sobre o poema \"Se as coisas fossem mães\" da Sylvia Orthof"
+  },
+  "license": {
+    "pt": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt"
+  ],
+  "mainFile": "mae.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 8,
+  "mediaFiles": 15,
+  "totalSize": 362555,
+  "files": [
+    "70199180460b0a90fdfeae464c6cc750-se_as_coisas_fossem_maes.png",
+    "70199180460b0a90fdfeae464c6cc750.png",
+    "bfd2491d15d96c793d4f1ced945732cb-se_as_coisas_fossem_maes.png",
+    "bfd2491d15d96c793d4f1ced945732cb.png",
+    "casa-com-varandas-edificios-casas-1396769-se_as_coisas_fossem_maes.jpg",
+    "casa-com-varandas-edificios-casas-1396769.jpg",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "mae.jclic",
+    "mae.jclic.js",
+    "mesa-retangular-a-casa-a-sala-de-estar-1354150-se_as_coisas_fossem_maes.jpg",
+    "mesa-retangular-a-casa-a-sala-de-estar-1354150.jpg",
+    "panela-no-fogao-com-agua-e-vapor_163786-112-resized-se_as_coisas_fossem_maes.jpg",
+    "panela-no-fogao-com-agua-e-vapor_163786-112-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "se_as_coisas_fossem_maes.jclic",
+    "se_as_coisas_fossem_maes.jclic.js"
+  ]
+}
